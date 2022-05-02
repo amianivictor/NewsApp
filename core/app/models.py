@@ -1,3 +1,4 @@
+#class source
 class Sources:
     '''
     Source class to define Source Objects
@@ -11,7 +12,7 @@ class Sources:
         self.category = category
         self.country = country
 
-
+#class articles
 class Articles:
     """
      '''

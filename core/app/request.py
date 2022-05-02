@@ -19,7 +19,7 @@ def get_sources():
     '''
     Function that gets the json response to our url request
     '''
-    get_sources_url = 'https://newsapi.org/v2/sources?apiKey=def39ff22c2543fbbc005d7eaa87b661'
+    get_sources_url = 'https://newsapi.org/v2/sources?apiKey=418eabf42edf4d3e91f456b0c613dbda'
 
     with urllib.request.urlopen(get_sources_url) as url:
         get_sources_data = url.read()

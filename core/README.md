@@ -1,15 +1,9 @@
-# News-Api
-#### This is a News-Api Application, 2022
-#### By **vkey**
+# NewsApp
+#### This is a News Application, 2022
+#### By **Victor**
 ## Description
 This is an application where the user can choose variety of news and read news from different news categories.
 
-## Screenshot of website
-<img src="app/static/images/Screenshot (1).png">
-Screenshot 2
-<img src="app/static/images/Screenshot (2).png">
-Screenshot 3
-<img src="app/static/images/Screenshot (3).png">
 
 
 ## Setup/Installation Requirements

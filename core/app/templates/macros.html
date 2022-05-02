@@ -1,0 +1,57 @@
+
+{% macro displaySourceList(source_list) %}
+
+
+<div class="container-fluid">
+
+    <div class="row">
+        {% for sources in source_list %}
+        <div class="col-md-4 ">
+            <div class="panel panel-default text-center">
+                <div class="panel-heading">
+                    <h4>{{ sources.name}}</h4>
+                </div>
+                <div class="panel-body">
+                    <p>{{ sources.description[:80]}} ...</p>
+                </div> 
+                <div class="panel-footer">
+
+                    <a href="/articles/{{ sources.id }}" class="btn btn-danger mb-2" >{{sources.name}}</a> 
+                 </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+    
+{% endmacro %}
+
+
+{% macro displayArticleList(articles_list) %}
+
+
+<div class="container-fluid ">
+
+    <div class="row">
+        {% for articles in articles_list %}
+        <div class="col-md-4 articles">
+            <div class="news-grid text-center articles1">
+                <div class="news-grid-image"><img src="{{ articles.urlToImage}}" alt="" class="responsive"></div>
+                
+                <div class="news-grid-box"> 
+                    <h4>{{articles.title}}</h4>
+                    <p>{{articles.content}}</p>
+
+                     <p>Published On :{{articles.publishedAt}}</p>
+      
+                </div>
+                    <a href="{{ articles.url }}" class="btn btn-danger mb-2">Read More</a>
+
+                
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+    
+{% endmacro %}

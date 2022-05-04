@@ -19,3 +19,9 @@ This is an application where the user can choose variety of news and read news f
 * HTML
 * BOOTSTRAP
 * CSS
+
+## Support and contact details
+For more information,comments or clarification contact on khahonjeri.amiani@student.moringaschool.com
+### License
+*MIT License*
+MIT License
